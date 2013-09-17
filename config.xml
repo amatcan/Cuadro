@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.ieci.aviles"
+	version 	= "1.0.0">
+	<name>CuadroElectrico</name>
+	<description>Cuadro electrico.</description>
+
+	<author href="http://amatcan.github.com"
+		email="neexteam@gmail.com">
+		Alexander Mateos Candela
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+	<preference name="orientation" value="default" />
+		
+	<access origin="*" browserOnly="true"/>
+</widget>

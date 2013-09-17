@@ -1,0 +1,36 @@
+body{
+	font-color:black;
+}
+div #cuadro{
+	width:90%;
+	background-color: #F6E3CE;
+	padding:2em;	
+	display: inline-block;
+	border:1px solid red;
+}
+
+div .linea{
+	width:100%;
+	display: inline-block;
+	margin-bottom: 2em;
+}
+
+div .diferencial{
+	float:left;
+	height:5em;
+	width:5em;
+	background-color: #CED8F6;
+	padding:1em;
+    border: 1px solid grey;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+div .automatico{
+	float:left;
+	height:5em;
+	width:5em;
+	background-color: #CEF6CE;
+	padding:1em;
+    border: 1px solid grey;;
+	box-shadow: 10px 10px 5px #888888;
+}
