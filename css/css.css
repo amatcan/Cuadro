@@ -1,36 +1,70 @@
 body{
 	font-color:black;
+	text-align:center;
+}
+h1,h2{	
+	margin-top:0.5em;
+	margin-bottom:0.2em;
+}
+h2{
+	text-align:left;
 }
 div #cuadro{
 	width:90%;
-	background-color: #F6E3CE;
-	padding:2em;	
+	background-color: #D8D8D8;
+	padding:0;
+	padding-left:1em;	
 	display: inline-block;
-	border:1px solid red;
+	box-shadow: 10px 10px 5px #555555;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:2em;
+	margin-bottom:1em;
 }
 
 div .linea{
 	width:100%;
 	display: inline-block;
-	margin-bottom: 2em;
+	margin-bottom: 0em;
+	color:black;
 }
 
 div .diferencial{
 	float:left;
-	height:5em;
-	width:5em;
-	background-color: #CED8F6;
-	padding:1em;
+	height:6em;
+	width:4em;
+	background-color: #A4A4A4;
+	padding:0em;
     border: 1px solid grey;
 	box-shadow: 10px 10px 5px #888888;
 }
 
 div .automatico{
 	float:left;
-	height:5em;
-	width:5em;
-	background-color: #CEF6CE;
-	padding:1em;
+	height:6em;
+	width:3em;
+	background-color: #F2F2F2;
+	padding:0em;
     border: 1px solid grey;;
 	box-shadow: 10px 10px 5px #888888;
+}
+.titulo p{
+	font-size:0.8em;
+	margin:0;
+}
+.ui-btn-inner{
+	padding: 0.8em 2px;
+}
+
+.ui-icon-bombilla {
+	background-image: url("images/bombilla.png");
+}
+.ui-icon-riego {
+	background-image: url("images/riego.png");
+}
+.ui-icon-llave {
+	background-image: url("images/key.png");
+}
+.ui-icon-configuracion {
+	background-image: url("images/configuracion.png");
 }
